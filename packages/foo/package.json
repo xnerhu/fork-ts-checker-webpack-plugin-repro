@@ -1,0 +1,12 @@
+{
+  "name": "@test/foo",
+  "version": "1.0.0",
+  "private": true,
+  "main": "build/main.js",
+  "types": "src",
+  "scripts": {
+    "build": "cross-env DEV=1 webpack serve"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

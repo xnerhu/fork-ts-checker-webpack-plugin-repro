@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDirs": ["./src"],
+
+    "composite": true,
+
+    "paths": {
+      "@test/foo/*": ["../foo/src/*"]
+    },
+
+    "typeRoots": ["../foo/src/index.ts"]
+  },
+  "references": [{ "path": "../foo" }],
+  "include": ["./src"]
+}

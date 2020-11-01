@@ -1,0 +1,11 @@
+{
+  "name": "@test/bar",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cross-env DEV=1 webpack serve"
+  },
+  "dependencies": {
+    "@test/foo": "1.0.0"
+  }
+}
